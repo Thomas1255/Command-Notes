@@ -46,7 +46,7 @@
    git branch -D
    ```
 # After Making File Changes
-1. Add changes to staging area. Replace <file-name> with <.> to add all changes in current directory:
+1. Add changes to staging area. Replace (file-name) with (.) to add all changes in current directory:
    ```sh
    git add <file-name or .>
    ```
