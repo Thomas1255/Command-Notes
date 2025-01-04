@@ -57,5 +57,26 @@
 3. Push up the branch to the remote repository for review:
    ```sh
    git push origin <branch-name>
-   ```   
+   ```
+# If git pull origin Aborts
+1. Commit the change:
+   ```sh
+   git commit -m "<message>"
+   ```
+2. Stash the changes. Stashing acts as a stack, where you can push changes, and you pop them in reverse order.
+   ```sh
+   git stash
+   ```
+   Do the merge, then pop the stash:
+   ```sh
+   git stash pop
+   ```
+3. Discard the local changes:
+   ```sh
+   git reset --hard
+   ```
+   Or
+   ```sh
+   git git checkout -t -f remote/branch
+   ```
 
