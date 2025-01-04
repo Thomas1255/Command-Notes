@@ -1,5 +1,5 @@
 # Getting Started
-### Note: Exanple of file-path/directory is ```D:\Documents\...```
+### Note: Example of file-path/directory is ```D:\Documents\...```
 1. To set up file path,
    ```sh <!--highlight syntax: use js for javascript, sh for terminal or shell commands-->
    cd <file-path>
