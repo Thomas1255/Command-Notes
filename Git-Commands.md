@@ -58,7 +58,7 @@
    ```sh
    git push origin <branch-name>
    ```
-# If git pull origin Aborts
+# If (git pull origin) Aborts
 1. Commit the change:
    ```sh
    git commit -m "<message>"
