@@ -39,11 +39,11 @@
    ```
 6. Delete specified branch only if the branch is already merged (Safe Delete):
    ```sh
-   git branch -d
+   git branch -d <branch-name>
    ```
 7. Force branch delete
    ```sh
-   git branch -D
+   git branch -D <branch-name>
    ```
 # After Making File Changes
 1. Add changes to staging area. Replace (file-name) with (.) to add all changes in current directory:
